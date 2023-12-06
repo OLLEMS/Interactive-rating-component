@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;1,700&display=swap");
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  border-radius: 28px;
+  display: flex;
+  flex-direction: column;
+  width: 412px;
+  height: 415px;
+  background-color: rgba(30, 37, 47, 1);
+}
+
+.ret {
+  padding-left: 30px;
+  padding-top: 30px;
+}
+
+.star {
+  background-color: rgb(50, 49, 61);
+  border-radius: 9999px;
+  padding: 15px;
+  margin: 5px;
+  align-items: center;
+}
+
+.container h1,
+.container p {
+  color: aliceblue;
+  font-family: "Overpass", sans-serif;
+}
+
+.container h1 {
+  font-weight: 700;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.buttons {
+  font-family: "Overpass", sans-serif;
+  display: inline-block;
+  padding: 15px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.button {
+  color: rgb(134, 134, 134);
+  background-color: rgb(50, 49, 61);
+  border-radius: 9999px;
+  border: none;
+  font-family: "Overpass", sans-serif;
+  font-size: 15px;
+  width: 45px;
+  height: 45px;
+  line-height: 15px;
+}
+
+.button:hover {
+  background-color: rgb(216, 213, 213);
+  color: white;
+  transition: all 0.7s ease-out;
+  scale: 110%;
+}
+
+.Submit {
+  color: white;
+  background-color: rgb(252, 118, 20);
+  display: flex;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 12px;
+  border-radius: 9999px;
+  border: none;
+  width: 280px;
+  padding: 10px;
+  margin: 30px;
+  justify-content: center;
+}
